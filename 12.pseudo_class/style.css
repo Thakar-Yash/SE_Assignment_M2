@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.dynamic-button{
+    height: 40px;
+    width: 150px;
+    font-weight: 800;
+    font-size: medium;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1.2s ease;
+}
+
+.dynamic-button:hover{
+    background-color: #000000;
+    color: rgb(252, 7, 7);
+}

@@ -1,0 +1,7 @@
+8. In how many ways can a CSS be integrated as a web page?
+
+Ans) There are three primary ways to integrate css into a webpage as under:
+
+	1) Inline CSS :
+	2) Internal CSS :
+	3) External CSS :

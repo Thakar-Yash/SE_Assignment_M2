@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="h2"><center>Individual Registration</center></h2>
+      <form action="#" method="post">
+        <div class="section">
+          <h3 class="h3">User Particulars</h3>
+          <label for="login-id">Login ID:</label>
+          <input type="text" id="login-id" name="login-id" required /><br />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required /><br />
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+        </div>
+
+        <div class="section">
+          <h3 class="h3">Personal Particulars</h3>
+          <div class="row">
+            <label for="salutation">Salutation:</label>
+            <select id="salutation" name="salutation" required>
+              <option value="">Select</option>
+              <!-- Add options here -->
+            </select>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required />
+          </div>
+          <div class="row">
+            <label for="middle-name">Middle Name:</label>
+            <input type="text" id="middle-name" name="middle-name" />
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required />
+          </div>
+          <div class="row">
+            <label for="resident-status">Resident Status:</label>
+            <select id="resident-status" name="resident-status" required>
+              <option value="">Select</option>
+              <!-- Add options here -->
+            </select>
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+              <option value="">Select</option>
+              <!-- Add options here -->
+            </select>
+          </div>
+          <div class="row">
+            <label for="email">Email-ID:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" required />
+          </div>
+        </div>
+
+        <div class="section" class="AC">
+          <h3 class="h3">Account Particulars</h3>
+          <div class="row">
+            <label for="AC-no">15 Digit Account No</label>
+            <input type="number" />
+            <label for="nickname">Nick Name</label>
+            <input type="text" />
+          </div>
+          <div class="row">
+            <label for="fund-transfer">Fund Transfer</label>
+            <select name="fund-transfer" id="ft">
+              <option value="">Select</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="section" id="declaration">
+          <h3 class="h3">Declaration</h3>
+          <p>
+            I have read, understood and hereby agree to the Terms and Conditions
+            in respect of all products and channels. <br> I understand that any
+            changes in the terms and conditions applicable to this relationship
+            would be made available to me on request at any IOB branches. I
+            confirm that all accounts under this login name are operated singly
+            and in case of joint account operated by either or survivor/ anyone
+            or survivor(s) under his/her joint name respectively. I do hereby
+            declare that information furnished in this form is true to the best
+            of my knowledge and belief.
+          </p>
+        </div>
+
+        <div class="buttons">
+          <button type="submit" class="btn">Submit</button>
+          <button type="reset" class="btn">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
